@@ -1,1 +1,69 @@
+/**   
+ * LeetCode Problem 9 - Palindrome Number
+ * Difficulty: Easy
+ * 
+ * Problem:
+ * Given an integer x, return true if x is
+ * palindrome integer.
+ * 
+ * Example:
+ * Input:  x = 121  → Output: true
+ * Input:  x = -121 → Output: false
+ * Input:  x = 10   → Output: false
+ * 
+ * Approach: Reverse Half Number
+ * Time Complexity:  O(log n)
+ * Space Complexity: O(1)
+ */
+public class Day001_PalindromeNumber {
 
+    public boolean isPalindrome(int x) {
+
+        // Negative numbers are not palindrome
+        // Numbers ending with 0 are not palindrome
+        // except 0 itself
+      class Solution {
+    public boolean isPalindrome(int x) {
+
+        if(x<0)
+        {return false;
+        }
+
+        int n = x;
+        int revNum = 0;
+        while(n>0)
+        {
+
+int d = n%10;
+revNum = revNum*10+d;
+n =n/10;
+        }
+        if(revNum == x)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        
+    }
+}
+
+    // Test cases
+    public static void main(String[] args) {
+        Day001_PalindromeNumber solution =
+            new Day001_PalindromeNumber();
+
+        System.out.println(
+            solution.isPalindrome(121));   // true
+        System.out.println(
+            solution.isPalindrome(-121));  // false
+        System.out.println(
+            solution.isPalindrome(10));    // false
+        System.out.println(
+            solution.isPalindrome(0));     // true
+        System.out.println(
+            solution.isPalindrome(1221));  // true
+    }
+}
