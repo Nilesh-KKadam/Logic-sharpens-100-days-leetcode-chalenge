@@ -1,4 +1,4 @@
-public class FibonacciSolutions {             
+public class FibonacciSolutions {              
 
     // --------------------------------------------------          
     // 1. ITERATIVE APPROACH (BEST)
