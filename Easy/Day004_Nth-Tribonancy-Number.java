@@ -1,7 +1,7 @@
 public class TribonacciSolutions {
 
     // --------------------------------------------------
-    // 1. MEMOIZATION (TOP-DOWN DP) 
+    // 1. MEMOIZATION (TOP-DOWN DP)     
     // --------------------------------------------------
     /*       
      * Idea:                 
