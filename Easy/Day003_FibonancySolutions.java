@@ -1,9 +1,9 @@
-public class FibonacciSolutions {
+public class FibonacciSolutions {              
 
-    // --------------------------------------------------
+    // --------------------------------------------------          
     // 1. ITERATIVE APPROACH (BEST)
     // --------------------------------------------------
-    /*
+    /*            
      * Idea:
      * Instead of storing all values, we only track last two numbers.
      * 
