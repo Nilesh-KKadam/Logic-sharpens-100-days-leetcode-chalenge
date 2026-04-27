@@ -22,7 +22,7 @@ class Solution {
         // Loop as long as we have enough empty bottles to make an exchange
         while (emptyBottles >= numExchange) {
             // Calculate how many new full bottles we receive
-            int newFullBottles = emptyBottles / numExchange;
+            int newFullBottles = emptyBottles / numExchange;           
             
             // Calculate how many empty bottles couldn't be exchanged in this round
             int leftoverEmpties = emptyBottles % numExchange;
