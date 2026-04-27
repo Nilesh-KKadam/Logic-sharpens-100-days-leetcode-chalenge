@@ -9,7 +9,7 @@
  * - This logarithmic reduction ensures the loop runs very few times even for large N.
  * * Space Complexity: O(1)
  * - We only use a fixed amount of space for integer variables (totalDrunk, emptyBottles, etc.).
- * - The space usage does not grow with the input size.
+ * - The space usage does not grow with the input size.       
  */
 class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
