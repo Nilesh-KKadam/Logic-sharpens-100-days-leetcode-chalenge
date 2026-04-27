@@ -16,7 +16,7 @@ class Solution {
         // Initialize total bottles consumed with the starting count
         int totalDrunk = numBottles;
         
-        // We start with as many empty bottles as we initially drank
+        // We start with as many empty bottles as we initially drank     
         int emptyBottles = numBottles;
 
         // Loop as long as we have enough empty bottles to make an exchange
