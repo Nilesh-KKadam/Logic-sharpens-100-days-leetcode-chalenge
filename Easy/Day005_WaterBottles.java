@@ -1,5 +1,5 @@
 /**
- * Problem: 1518. Water Bottles
+ * Problem: 1518. Water Bottles      
  * * Approach: Simulation
  * We simulate the process of drinking bottles and exchanging the empty ones.
  * This is a greedy approach because we exchange as many bottles as possible 
