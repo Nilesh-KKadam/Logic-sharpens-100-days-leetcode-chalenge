@@ -17,7 +17,7 @@ class Solution {
         int totalDrunk = numBottles;
         
         // We start with as many empty bottles as we initially drank     
-        int emptyBottles = numBottles;
+        int emptyBottles = numBottles;           
 
         // Loop as long as we have enough empty bottles to make an exchange
         while (emptyBottles >= numExchange) {
