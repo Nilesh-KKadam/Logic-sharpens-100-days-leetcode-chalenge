@@ -2,8 +2,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Arrays;
      
-public class Solution {
-
+public class Solution {      
+        
     // This function finds two indices such that nums[i] + nums[j] = target
     public int[] twoSum(int[] nums, int target) {
 
