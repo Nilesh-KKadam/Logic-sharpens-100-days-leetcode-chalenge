@@ -35,7 +35,7 @@ class Solution  {
             ans.add(digit);
 
             // Move to next digit in array (left side)
-            p--;
+            p--;         
 
             // Remove last digit from k
             k = k / 10;
