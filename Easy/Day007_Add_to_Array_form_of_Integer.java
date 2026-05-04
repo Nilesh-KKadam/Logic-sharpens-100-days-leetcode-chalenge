@@ -17,7 +17,7 @@ class Solution {
             // If array still has digits left, take current digit
             if (p >= 0) {
                 numval = num[p];
-            }
+            }    
 
             // Extract last digit of k
             int d = k % 10;
