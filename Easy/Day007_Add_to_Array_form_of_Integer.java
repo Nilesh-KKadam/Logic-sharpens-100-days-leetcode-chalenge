@@ -6,7 +6,7 @@ class Solution {
 
         // Pointer to traverse the array from last digit (rightmost)
         int p = num.length - 1;
-
+       
         // Carry to handle overflow during addition
         int carry = 0;
 
