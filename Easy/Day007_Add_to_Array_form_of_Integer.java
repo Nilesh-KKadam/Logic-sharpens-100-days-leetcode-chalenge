@@ -1,4 +1,4 @@
-class Solution {                                                    
+class Solution  {                                                    
     public List<Integer> addToArrayForm(int[] num, int k) { 
         // List to store the final result
         List<Integer> ans = new ArrayList<>();
