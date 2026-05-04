@@ -12,7 +12,7 @@ class Solution {
         // Loop until all digits of num[] and k are processed
         while (p >= 0 || k > 0) {
 
-            int numval = 0;
+            int numval = 0;     
 
             // If array still has digits left, take current digit
             if (p >= 0) {
