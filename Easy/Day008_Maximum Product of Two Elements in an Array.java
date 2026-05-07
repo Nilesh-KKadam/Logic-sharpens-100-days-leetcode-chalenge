@@ -11,7 +11,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
 
             // If current element is greater than max
-            if (max < nums[i]) {
+            if (max < nums[i]) {                             
 
                 // Previous max becomes second max
                 smax = max;
