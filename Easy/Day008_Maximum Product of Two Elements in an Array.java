@@ -2,7 +2,7 @@ class Solution {
     public int maxProduct(int[] nums) {
 
         // max  -> stores the largest element in the array
-        // smax -> stores the second largest element
+        // smax -> stores the second largest element      
         int smax = -1;
         int max = -1;
 
