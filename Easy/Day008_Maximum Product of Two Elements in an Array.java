@@ -32,7 +32,7 @@ class Solution {
 
         // Apply formula:         
         // (largest element - 1) * (second largest element - 1)
-        int ans = (max - 1) * (smax - 1);
+        int ans = (max - 1) * (smax - 1);      
 
         // Time Complexity: O(1)
         // Constant time mathematical operation
