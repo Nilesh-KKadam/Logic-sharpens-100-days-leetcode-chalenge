@@ -30,7 +30,7 @@ class Solution {
             }
         }
 
-        // Apply formula:
+        // Apply formula:         
         // (largest element - 1) * (second largest element - 1)
         int ans = (max - 1) * (smax - 1);
 
