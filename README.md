@@ -5,7 +5,7 @@
 Java Developer |
 Spring Boot | REST APIs | DSA
 
-## 📊 Progress: 1/100
+## 📊 Progress: 8/100
 
 ## 📅 Solutions
 
