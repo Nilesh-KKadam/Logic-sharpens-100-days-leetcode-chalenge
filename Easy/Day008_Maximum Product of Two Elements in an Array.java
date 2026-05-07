@@ -3,7 +3,7 @@ class Solution {
 
         // max  -> stores the largest element in the array
         // smax -> stores the second largest element      
-        int smax = -1;
+        int smax = -1;                           
         int max = -1;
 
         // Time Complexity: O(n)
