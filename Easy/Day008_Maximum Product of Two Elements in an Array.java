@@ -1,5 +1,5 @@
 class Solution {
-    public int maxProduct(int[] nums) {
+    public int maxProduct(int[] nums) {       
 
         // max  -> stores the largest element in the array
         // smax -> stores the second largest element      
